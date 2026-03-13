@@ -1,0 +1,77 @@
+# Dataset folders
+dataset/
+landslide_maps/
+*.npy
+data/*.egg
+data/test/
+data/train/
+
+# Trained model folders
+trained_cifar/
+trained_cnn_models/
+trained_resnet_models/
+trained_supervised/
+trained_vit_models/
+finetuned_models/
+pretrained_models/
+
+# Training outputs
+loss_curve/
+performance/
+test_results/
+
+images/
+logs/
+results/
+test_cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+*.pin
+
+# Environment variables
+.env
+.env.local
+
+.claude/
+.cursor/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Embeddings (large files)
+# *.npy는 최상위에서 전체 제외
+
+# Model checkpoints (large files)
+*.h5
+*.ckpt
+*.pb

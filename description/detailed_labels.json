@@ -1,0 +1,722 @@
+{
+  "Geology": {
+    "geology": [
+      {
+        "name": "Sambangsan Formation",
+        "code": 1,
+        "description": "Contains structural deformation from faults and folds, with high-density joints and fracture zones, and developed foliation showing anisotropy. Uniaxial compressive strength (UCS) is typically 50-100 MPa when fresh, but can drop below 20 MPa in shale sections."
+      },
+      {
+        "name": "Imgye Granite",
+        "code": 2,
+        "description": "Based on Precambrian granitic gneiss with Cretaceous biotite granite intrusion, showing anisotropy according to micro-fracture direction and high weathering resistance. Many sections have high strength with uniaxial compressive strength (UCS) of 100-200 MPa or more."
+      },
+      {
+        "name": "Jeongseon Limestone",
+        "code": 3,
+        "description": "Upper strata of the Ordovician Joseon Supergroup from the Paleozoic era. Includes limestone and partially dolomite layers. Uniaxial compressive strength (UCS) is generally 80-150 MPa."
+      },
+      {
+        "name": "Nokan Series",
+        "code": 4,
+        "description": "Composed of green to gray-green fine-grained sandstone, siltstone, and shale. Uniaxial compressive strength (UCS) is 80-120 MPa in fresh sandstone and 40-70 MPa in mixed shale and siltstone sections, vulnerable to moisture."
+      },
+      {
+        "name": "Recent River Deposits",
+        "code": 5,
+        "description": "Mixture of gravel, sand, silt, and some clay transported from upper river reaches, primarily composed of gravel and sand, resulting in very high permeability coefficient."
+      },
+      {
+        "name": "Biotite Gneiss",
+        "code": 6,
+        "description": "A type of metamorphic rock, forming the basement rock that occupies a significant portion of the Korean Peninsula ground. When fresh, uniaxial compressive strength (UCS) is 100-200 MPa. When weathered, it drops to 20-50 MPa or below."
+      }
+    ]
+  },
+  "Land_use": {
+    "landuse": [
+      {
+        "name": "Residential Area",
+        "code": 11,
+        "description": "A densely populated area with residential buildings such as single-family houses and apartments, along with their associated facilities (yards, parking lots, etc.)."
+      },
+      {
+        "name": "Transportation Area",
+        "code": 15,
+        "description": "Facilities and sites for transportation systems installed for the movement of people or cargo, including roads, railways, airports, and ports."
+      },
+      {
+        "name": "Public Facility Area",
+        "code": 16,
+        "description": "Facilities and their associated sites operated for public benefit, including schools, government offices, hospitals, and religious facilities."
+      },
+      {
+        "name": "Paddy Field",
+        "code": 21,
+        "description": "A type of paddy field where water is retained and managed for a certain period for rice cultivation."
+      },
+      {
+        "name": "Dry Field",
+        "code": 22,
+        "description": "A typical upland cropland where vegetables, grains, and specialty crops are cultivated without water retention."
+      },
+      {
+        "name": "Greenhouse Cultivation Area",
+        "code": 23,
+        "description": "An area where crops are cultivated inside facilities such as plastic greenhouses or glasshouses that can control temperature and humidity."
+      },
+      {
+        "name": "Other Cultivation Area",
+        "code": 25,
+        "description": "Fixed-form agricultural land that does not fall under paddy fields, dry fields, or greenhouse cultivation, such as orchards, nurseries, and ginseng fields."
+      },
+      {
+        "name": "Broadleaf Forest",
+        "code": 31,
+        "description": "A forest area where broad-leaved trees (oak, maple, etc.) predominate, typically deciduous with seasonal leaf fall."
+      },
+      {
+        "name": "Coniferous Forest",
+        "code": 32,
+        "description": "A forest area where needle-leaved trees such as pine, Korean pine, and fir predominate."
+      },
+      {
+        "name": "Mixed Forest",
+        "code": 33,
+        "description": "A forest area where broad-leaved and coniferous trees grow mixed together without any single species dominating."
+      },
+      {
+        "name": "Natural Grassland",
+        "code": 41,
+        "description": "Grassland naturally occurring in mountainous areas or plains, covered with grasses and plants, with minimal artificial management."
+      },
+      {
+        "name": "Artificial Grassland",
+        "code": 43,
+        "description": "Grassland artificially created and managed for specific purposes, such as golf courses, soccer fields, ranches, and park lawns."
+      },
+      {
+        "name": "Inland Wetland",
+        "code": 51,
+        "description": "A wet area such as swamps or marshes around rivers or lakes that remains waterlogged year-round or for extended periods."
+      },
+      {
+        "name": "Artificial Bare Land",
+        "code": 62,
+        "description": "Land where vegetation has been removed and the ground surface is exposed due to human activities, such as construction sites, vacant lots, landfills, and quarries."
+      },
+      {
+        "name": "Inland Water",
+        "code": 71,
+        "description": "An area located within land where water surfaces are permanently exposed, including rivers, lakes, reservoirs, and dams."
+      }
+    ]
+  },
+  "Soil_summary": {
+    "soil_texture": [
+      {
+        "name": "Loamy skeletal",
+        "code": 1,
+        "description": "The fine soil is loam, but more than 35% by volume consists of gravel or rock fragments, resulting in very rapid drainage and good bearing capacity."
+      },
+      {
+        "name": "Coarse loamy",
+        "code": 2,
+        "description": "A coarse loamy soil with relatively high sand content and low clay content, with good aeration and moderate water retention capacity."
+      },
+      {
+        "name": "Fine loamy",
+        "code": 3,
+        "description": "A fine loamy soil with appropriate clay content providing cohesiveness, excellent water and nutrient retention, favorable for vegetation growth."
+      },
+      {
+        "name": "Fine loamy",
+        "code": 4,
+        "description": "A fine loamy soil with appropriate clay content providing cohesiveness, excellent water and nutrient retention, favorable for vegetation growth."
+      },
+      {
+        "name": "Sandy skeletal",
+        "code": 5,
+        "description": "The fine soil is primarily sand, with more than 35% gravel mixed in, resulting in very high permeability and weak bonding strength."
+      },
+      {
+        "name": "Rock",
+        "code": 6,
+        "description": "Soil is barely developed or bedrock is exposed above the ground surface, making it difficult for vegetation to grow and having low permeability."
+      },
+      {
+        "name": "Coarse loamy/sandy skeletal",
+        "code": 7,
+        "description": "A soil with very coarse particle size distribution, formed by layers or mixtures of coarse loamy soil and sandy soil with many rock fragments."
+      },
+      {
+        "name": "Fine silty/coarse silt",
+        "code": 8,
+        "description": "A mixture of very fine and coarse silt, providing a smooth texture but highly vulnerable to water erosion."
+      },
+      {
+        "name": "Gravelly Clay Loam",
+        "code": 9,
+        "description": "A clay loam soil mixed with sand and containing gravel, providing both cohesiveness and drainage capacity."
+      },
+      {
+        "name": "Clayey skeletal",
+        "code": 10,
+        "description": "A structure where more than 35% rock fragments are embedded within fine soil with high clay content, which may reduce shear strength when wet."
+      },
+      {
+        "name": "Loamy skeletal",
+        "code": 11,
+        "description": "The fine soil is loam, but more than 35% by volume consists of gravel or rock fragments, resulting in very rapid drainage and good bearing capacity."
+      },
+      {
+        "name": "Coarse loamy/sandy",
+        "code": 12,
+        "description": "A barren soil with coarse loamy soil mixed with sand, showing almost no cohesiveness and very rapid water drainage."
+      },
+      {
+        "name": "Fine clayey",
+        "code": 13,
+        "description": "Very high clay content with fine and dense particles, excellent water retention but poor drainage, prone to cracking when dry."
+      }
+    ],
+    "soil_sub_texture": [
+      {
+        "name": "Silt loam",
+        "code": 1,
+        "description": "Silt loam"
+      },
+      {
+        "name": "Loamy sand",
+        "code": 2,
+        "description": "Sand is the main component with some silt or clay mixed in, resulting in very rapid drainage and weak inter-particle bonding."
+      },
+      {
+        "name": "Clay loam",
+        "code": 3,
+        "description": "Considerable clay content makes it sticky when wet and very hard when dry, with excellent nutrient and water retention."
+      },
+      {
+        "name": "Sandy loam",
+        "code": 4,
+        "description": "A typical soil with high sand content, good aeration, appropriate drainage, and easy cultivation and excavation."
+      },
+      {
+        "name": "Gravelly loam",
+        "code": 5,
+        "description": "Gravel mixed within loam provides better drainage than typical loam and relatively stable ground bearing capacity."
+      },
+      {
+        "name": "Rock",
+        "code": 6,
+        "description": "Bedrock exposure with barely developed soil layers, making vegetation growth difficult and having very low permeability."
+      },
+      {
+        "name": "Fine silty loam",
+        "code": 7,
+        "description": "Composed of very fine silt particles with excellent water retention but highly vulnerable to erosion by water flow."
+      },
+      {
+        "name": "Gravelly sandy loam",
+        "code": 8,
+        "description": "A coarse-textured soil primarily composed of sand and gravel, with very rapid drainage, almost no cohesiveness, and prone to collapse."
+      },
+      {
+        "name": "Loam",
+        "code": 9,
+        "description": "A fertile soil with balanced mixture of sand, silt, and clay, providing both excellent water retention and aeration."
+      },
+      {
+        "name": "Very gravelly loam",
+        "code": 10,
+        "description": "Loam filled with more than 35-60% gravel by volume, where the skeletal characteristics of gravel rather than soil determine ground strength."
+      },
+      {
+        "name": "Cobbly clay",
+        "code": 11,
+        "description": "Clayey soil mixed with rounded cobbles, with very high viscosity and strong resistance to heavy machinery operations."
+      },
+      {
+        "name": "Very gravelly clay loam",
+        "code": 12,
+        "description": "A robust ground with dense mixture of clay and gravel, having low permeability but a hard skeletal structure."
+      },
+      {
+        "name": "Gravelly silty clay loam",
+        "code": 13,
+        "description": "A form with gravel included in fine silt/clay material, highly sticky yet with some drainage channels secured internally."
+      },
+      {
+        "name": "Silty clay loam",
+        "code": 14,
+        "description": "Very high silt and clay content with fine particles, holding much water but poor drainage, making it prone to becoming soft."
+      }
+    ],
+    "soil_series": [
+      {
+        "name": "CsF",
+        "code": 1,
+        "description": "Mountainous terrain soil derived from limestone, with gravel-rich loam and steep slopes, primarily used as forest land."
+      },
+      {
+        "name": "WjE",
+        "code": 2,
+        "description": "Brown forest soil developed from limestone residual layers, with excellent drainage, primarily distributed in forest areas."
+      },
+      {
+        "name": "SiD",
+        "code": 3,
+        "description": "Mountainous soil derived from metamorphic rocks (gneiss, etc.), with sandy loam texture, suitable for forest vegetation."
+      },
+      {
+        "name": "SiC",
+        "code": 4,
+        "description": "Mountainous soil derived from metamorphic rocks (gneiss, etc.), with sandy loam texture, suitable for forest vegetation."
+      },
+      {
+        "name": "ChE",
+        "code": 5,
+        "description": "Silty clay loam distributed in valleys and alluvial fans of limestone regions, primarily used as dry fields."
+      },
+      {
+        "name": "MuD",
+        "code": 6,
+        "description": "Dark brown soil derived from limestone, with high gravel content, located on mountainous slopes."
+      },
+      {
+        "name": "UgE",
+        "code": 7,
+        "description": "Coarse loamy soil developed from mountainous residual layers, a forest soil with high forestry value."
+      },
+      {
+        "name": "SIE",
+        "code": 8,
+        "description": "Mountainous soil derived from metamorphic rocks (gneiss, etc.), with sandy loam texture, suitable for forest vegetation."
+      },
+      {
+        "name": "ImB",
+        "code": 9,
+        "description": "Distributed on high-altitude flat surfaces or gentle slopes, with high clay content clay loam, commonly used for highland vegetable fields."
+      },
+      {
+        "name": "ImC",
+        "code": 10,
+        "description": "Distributed on high-altitude flat surfaces or gentle slopes, with high clay content clay loam, commonly used for highland vegetable fields."
+      },
+      {
+        "name": "Ng",
+        "code": 11,
+        "description": "A very gravel-rich soil in mountainous terrain, with rapid drainage and severe surface exposure, making it barren."
+      },
+      {
+        "name": "Hr",
+        "code": 12,
+        "description": "Gravelly alluvial layer soil along rivers, with very high permeability, somewhat barren for agricultural use."
+      },
+      {
+        "name": "RC",
+        "code": 13,
+        "description": "An area with barely developed soil and exposed bedrock, with sparse vegetation."
+      },
+      {
+        "name": "Dq",
+        "code": 14,
+        "description": "Brown soil developed in valleys of limestone regions, with good drainage, suitable for dry field farming."
+      },
+      {
+        "name": "Gt",
+        "code": 15,
+        "description": "Coarse loamy soil derived from mountainous weathered layers, primarily distributed in steep-sloped forest areas."
+      },
+      {
+        "name": "WjF",
+        "code": 16,
+        "description": "Brown forest soil developed from limestone residual layers, with excellent drainage, primarily distributed in forest areas."
+      },
+      {
+        "name": "MuC",
+        "code": 17,
+        "description": "Dark brown soil derived from limestone, with high gravel content, located on mountainous slopes."
+      },
+      {
+        "name": "SlB",
+        "code": 18,
+        "description": "Located in plateau areas or gentle slopes, a loamy soil with relatively high organic matter content."
+      },
+      {
+        "name": "SpC",
+        "code": 19,
+        "description": "Sandy loam soil developed on flatlands near rivers, with high utility for agriculture and residential use."
+      },
+      {
+        "name": "SpB",
+        "code": 20,
+        "description": "Sandy loam soil developed on flatlands near rivers, with high utility for agriculture and residential use."
+      },
+      {
+        "name": "OdF",
+        "code": 21,
+        "description": "Brown forest soil developed in high mountain areas, characterized by low temperatures and high moisture."
+      },
+      {
+        "name": "Gz",
+        "code": 22,
+        "description": "Distributed in flat sedimentary terrain of river basins, a gravelly soil with very rapid drainage."
+      },
+      {
+        "name": "HgB",
+        "code": 23,
+        "description": "Gravel-mixed loamy soil derived from river alluvial layers, primarily utilized as dry fields or orchards."
+      },
+      {
+        "name": "UgC",
+        "code": 24,
+        "description": "Coarse loamy soil developed from mountainous residual layers, a forest soil with high forestry value."
+      },
+      {
+        "name": "OdE",
+        "code": 25,
+        "description": "Brown forest soil developed in high mountain areas, characterized by low temperatures and high moisture."
+      },
+      {
+        "name": "ChD",
+        "code": 26,
+        "description": "Silty clay loam distributed in valleys and alluvial fans of limestone regions, primarily used as dry fields."
+      },
+      {
+        "name": "SoD",
+        "code": 27,
+        "description": "Forest soil derived from metamorphic rock residual layers, with deep soil depth and loam structure mixed with gravel."
+      },
+      {
+        "name": "PuB",
+        "code": 28,
+        "description": "Sandy soil with high sand content near rivers, with very high permeability and weak bonding strength."
+      },
+      {
+        "name": "CsE",
+        "code": 29,
+        "description": "Mountainous terrain soil derived from limestone, with gravel-rich loam and steep slopes, primarily used as forest land."
+      },
+      {
+        "name": "DEC",
+        "code": 30,
+        "description": "A typical plateau field soil developed in cold climates of high-altitude flat surfaces."
+      },
+      {
+        "name": "RL",
+        "code": 31,
+        "description": "Recent riverbed deposits on river bottoms or floodplains, consisting of sand and gravel layers constantly affected by water."
+      },
+      {
+        "name": "DED",
+        "code": 32,
+        "description": "A typical plateau field soil developed in cold climates of high-altitude flat surfaces."
+      },
+      {
+        "name": "DEB",
+        "code": 33,
+        "description": "A typical plateau field soil developed in cold climates of high-altitude flat surfaces."
+      },
+      {
+        "name": "JsF",
+        "code": 34,
+        "description": "A unique mountainous soil derived from limestone in the Jeongseon region, characterized by high gravel content and extreme barrenness."
+      },
+      {
+        "name": "PaC",
+        "code": 35,
+        "description": "Reddish clay loam soil (Terra Rossa series) on alluvial fans of limestone regions, widely used for dry field farming."
+      },
+      {
+        "name": "MtD",
+        "code": 36,
+        "description": "A soil distributed on steep slopes with weak soil layer development and very abundant rock fragments."
+      },
+      {
+        "name": "JsE",
+        "code": 37,
+        "description": "A unique mountainous soil derived from limestone in the Jeongseon region, characterized by high gravel content and extreme barrenness."
+      },
+      {
+        "name": "MtE",
+        "code": 38,
+        "description": "A soil distributed on steep slopes with weak soil layer development and very abundant rock fragments."
+      },
+      {
+        "name": "HgC",
+        "code": 39,
+        "description": "Gravel-mixed loamy soil derived from river alluvial layers, primarily utilized as dry fields or orchards."
+      },
+      {
+        "name": "KJB",
+        "code": 40,
+        "description": "A loamy sandy soil series on flatlands around rivers, a sedimentary soil with excellent drainage."
+      },
+      {
+        "name": "MjB",
+        "code": 41,
+        "description": "Sedimentary soil in valleys of metamorphic rock regions, relatively fertile and utilized as paddy fields or dry fields."
+      },
+      {
+        "name": "MjC",
+        "code": 42,
+        "description": "Sedimentary soil in valleys of metamorphic rock regions, relatively fertile and utilized as paddy fields or dry fields."
+      },
+      {
+        "name": "PaD",
+        "code": 43,
+        "description": "Reddish clay loam soil (Terra Rossa series) on alluvial fans of limestone regions, widely used for dry field farming."
+      },
+      {
+        "name": "MtC",
+        "code": 44,
+        "description": "A soil distributed on steep slopes with weak soil layer development and very abundant rock fragments."
+      },
+      {
+        "name": "AmB",
+        "code": 45,
+        "description": "Brown soil from mountainous terrain residual layers, distributed in forest areas with well-preserved natural forests."
+      },
+      {
+        "name": "MoC",
+        "code": 46,
+        "description": "Coarse-textured soil in hilly or mountainous areas, with rapid drainage and relatively low water retention."
+      },
+      {
+        "name": "Bo",
+        "code": 47,
+        "description": "Clay loam soil in alluvial plains, with somewhat poor drainage, primarily used as paddy fields."
+      },
+      {
+        "name": "NkB",
+        "code": 48,
+        "description": "Sandy alluvial soil widely distributed along riverbanks, with very high sand content."
+      },
+      {
+        "name": "GpB",
+        "code": 49,
+        "description": "Sandy loam soil on gentle slopes, with good aeration, suitable for vegetable or field crop cultivation."
+      },
+      {
+        "name": "MuE",
+        "code": 50,
+        "description": "Dark brown soil derived from limestone, with high gravel content, located on mountainous slopes."
+      },
+      {
+        "name": "HjB",
+        "code": 51,
+        "description": "Reddish-brown clay loam soil in low hills of limestone regions, with relatively deep soil depth."
+      },
+      {
+        "name": "Jd",
+        "code": 52,
+        "description": "Recent sedimentary soil along rivers, with many coarse particles, limiting agricultural utilization."
+      },
+      {
+        "name": "OeB",
+        "code": 53,
+        "description": "Developed on gentle slopes at the base of mountains, showing good drainage and stable ground characteristics."
+      },
+      {
+        "name": "GbD",
+        "code": 54,
+        "description": "Soil derived from red shale or metamorphic rocks, a clay loam with somewhat high clay content."
+      }
+    ],
+    "soil_thickness": [
+      {
+        "name": "20 - 50",
+        "code": 1,
+        "description": "Relatively shallow soil depth, with bedrock close to the surface, which may limit root development of large plant species."
+      },
+      {
+        "name": "> 100",
+        "code": 2,
+        "description": "Soil depth exceeds 1m, very favorable for vegetation growth, and forms long stable soil sections during ground excavation."
+      },
+      {
+        "name": "50 - 100",
+        "code": 3,
+        "description": "A section with average soil depth, providing appropriate soil depth for most crops and trees to grow."
+      },
+      {
+        "name": "< 20",
+        "code": 4,
+        "description": "Very shallow soil depth with bedrock almost exposed, low water retention, unfavorable for vegetation establishment."
+      },
+      {
+        "name": "0",
+        "code": 5,
+        "description": "Rock outcrop or water body with no soil present, geotechnically a complete bedrock section."
+      }
+    ],
+    "soil_drainage": [
+      {
+        "name": "Somewhat excessive",
+        "code": 1,
+        "description": "Rapid water drainage makes it prone to drought damage, primarily found in sandy or gravel-rich soils."
+      },
+      {
+        "name": "Well",
+        "code": 2,
+        "description": "The most ideal balance between water retention and drainage, optimal for both vegetation growth and civil engineering construction."
+      },
+      {
+        "name": "Moderately well",
+        "code": 3,
+        "description": "Generally well-drained, but temporary water stagnation may occur during rainfall due to characteristics of lower layers."
+      },
+      {
+        "name": "Very poorly",
+        "code": 4,
+        "description": "Almost no water drainage, constantly waterlogged or with very high groundwater level, likely to be soft ground."
+      },
+      {
+        "name": "Imperfectly",
+        "code": 5,
+        "description": "Somewhat slow drainage tends to maintain excessive moisture in the soil, and artificial drainage facilities are recommended."
+      }
+    ]
+  },
+  "Forest_summary": {
+    "forest_density": [
+      {
+        "name": "C",
+        "code": 1,
+        "description": "Canopy coverage area of trees is 71% or more"
+      },
+      {
+        "name": "No forest",
+        "code": 2,
+        "description": "No forest"
+      },
+      {
+        "name": "B",
+        "code": 3,
+        "description": "Canopy coverage area of trees is 51% to 70%"
+      },
+      {
+        "name": "A",
+        "code": 4,
+        "description": "Canopy coverage area of trees is 50% or less"
+      }
+    ],
+    "forest_age": [
+      {
+        "name": "No forest",
+        "code": 0,
+        "description": "An area where trees with measurable age are absent."
+      },
+      {
+        "name": "1st age class",
+        "code": 1,
+        "description": "Forest age classified in 10-year units, representing maturity from 1st age class (1-10 years) to 6th age class (51 years or more)."
+      },
+      {
+        "name": "2nd age class",
+        "code": 2,
+        "description": "Forest age classified in 10-year units, representing maturity from 1st age class (1-10 years) to 6th age class (51 years or more)."
+      },
+      {
+        "name": "3rd age class",
+        "code": 3,
+        "description": "Forest age classified in 10-year units, representing maturity from 1st age class (1-10 years) to 6th age class (51 years or more)."
+      },
+      {
+        "name": "4th age class",
+        "code": 4,
+        "description": "Forest age classified in 10-year units, representing maturity from 1st age class (1-10 years) to 6th age class (51 years or more)."
+      },
+      {
+        "name": "5th age class",
+        "code": 5,
+        "description": "Forest age classified in 10-year units, representing maturity from 1st age class (1-10 years) to 6th age class (51 years or more)."
+      },
+      {
+        "name": "6th age class",
+        "code": 6,
+        "description": "Forest age classified in 10-year units, representing maturity from 1st age class (1-10 years) to 6th age class (51 years or more)."
+      }
+    ],
+    "forest_diameter": [
+      {
+        "name": "No forest",
+        "code": 0,
+        "description": "No forest"
+      },
+      {
+        "name": "Sapling",
+        "code": 1,
+        "description": "Forest stand where trees with DBH less than 6cm account for 50% or more of canopy coverage"
+      },
+      {
+        "name": "Small diameter",
+        "code": 2,
+        "description": "Forest stand where trees with DBH 6-16cm account for 50% or more of canopy coverage"
+      },
+      {
+        "name": "Medium diameter",
+        "code": 3,
+        "description": "Forest stand where trees with DBH 18-28cm account for 50% or more of canopy coverage"
+      },
+      {
+        "name": "Large diameter",
+        "code": 4,
+        "description": "Forest stand where trees with DBH 30cm or more account for 50% or more of canopy coverage"
+      }
+    ],
+    "forest_type": [
+      {
+        "name": "Pine forest",
+        "code": 1,
+        "description": "A coniferous forest where pine trees predominate."
+      },
+      {
+        "name": "Non-forest",
+        "code": 2,
+        "description": "Land currently used as cropland or for non-forest purposes."
+      },
+      {
+        "name": "Larch forest",
+        "code": 3,
+        "description": "A coniferous forest where larch trees predominate."
+      },
+      {
+        "name": "Korean pine forest",
+        "code": 4,
+        "description": "A coniferous forest where Korean pine trees predominate."
+      },
+      {
+        "name": "Cultivated land",
+        "code": 5,
+        "description": "Land currently used as cropland or for non-forest purposes."
+      },
+      {
+        "name": "Coniferous-broadleaf mixed forest",
+        "code": 6,
+        "description": "A forest where coniferous and broad-leaved trees are mixed without any single species dominating."
+      },
+      {
+        "name": "Poplar forest",
+        "code": 7,
+        "description": "A forest where specific tree species such as poplar or paper mulberry form communities."
+      },
+      {
+        "name": "Broadleaf forest",
+        "code": 8,
+        "description": "A forest where broad-leaved trees grow naturally or have been artificially established."
+      },
+      {
+        "name": "Paper mulberry forest",
+        "code": 9,
+        "description": "A forest where specific tree species such as poplar or paper mulberry form communities."
+      },
+      {
+        "name": "Broadleaf artificial forest",
+        "code": 10,
+        "description": "A forest where broad-leaved trees grow naturally or have been artificially established."
+      }
+    ]
+  }
+}

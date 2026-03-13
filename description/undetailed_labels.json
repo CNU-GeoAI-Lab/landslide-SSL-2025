@@ -1,0 +1,722 @@
+{
+  "Geology": {
+    "geology": [
+      {
+        "name": "Sambangsan Formation",
+        "code": 1,
+        "description": "Sambangsan Formation"
+      },
+      {
+        "name": "Imgye Granite",
+        "code": 2,
+        "description": "Imgye Granite"
+      },
+      {
+        "name": "Jeongseon Limestone",
+        "code": 3,
+        "description": "Jeongseon Limestone"
+      },
+      {
+        "name": "Nokan Series",
+        "code": 4,
+        "description": "Nokan Series"
+      },
+      {
+        "name": "Recent River Deposits",
+        "code": 5,
+        "description": "Recent River Deposits"
+      },
+      {
+        "name": "Biotite Gneiss",
+        "code": 6,
+        "description": "Biotite Gneiss"
+      }
+    ]
+  },
+  "Land_use": {
+    "landuse": [
+      {
+        "name": "Residential Area",
+        "code": 11,
+        "description": "Residential Area"
+      },
+      {
+        "name": "Transportation Area",
+        "code": 15,
+        "description": "Transportation Area"
+      },
+      {
+        "name": "Public Facility Area",
+        "code": 16,
+        "description": "Public Facility Area"
+      },
+      {
+        "name": "Paddy Field",
+        "code": 21,
+        "description": "Paddy Field"
+      },
+      {
+        "name": "Dry Field",
+        "code": 22,
+        "description": "Dry Field"
+      },
+      {
+        "name": "Greenhouse Cultivation Area",
+        "code": 23,
+        "description": "Greenhouse Cultivation Area"
+      },
+      {
+        "name": "Other Cultivation Area",
+        "code": 25,
+        "description": "Other Cultivation Area"
+      },
+      {
+        "name": "Broadleaf Forest",
+        "code": 31,
+        "description": "Broadleaf Forest"
+      },
+      {
+        "name": "Coniferous Forest",
+        "code": 32,
+        "description": "Coniferous Forest"
+      },
+      {
+        "name": "Mixed Forest",
+        "code": 33,
+        "description": "Mixed Forest"
+      },
+      {
+        "name": "Natural Grassland",
+        "code": 41,
+        "description": "Natural Grassland"
+      },
+      {
+        "name": "Artificial Grassland",
+        "code": 43,
+        "description": "Artificial Grassland"
+      },
+      {
+        "name": "Inland Wetland",
+        "code": 51,
+        "description": "Inland Wetland"
+      },
+      {
+        "name": "Artificial Bare Land",
+        "code": 62,
+        "description": "Artificial Bare Land"
+      },
+      {
+        "name": "Inland Water",
+        "code": 71,
+        "description": "Inland Water"
+      }
+    ]
+  },
+  "Soil_summary": {
+    "soil_texture": [
+      {
+        "name": "Loamy skeletal",
+        "code": 1,
+        "description": "Loamy Skeletal"
+      },
+      {
+        "name": "Coarse loamy",
+        "code": 2,
+        "description": "Coarse Loamy"
+      },
+      {
+        "name": "Fine loamy",
+        "code": 3,
+        "description": "Fine Loamy"
+      },
+      {
+        "name": "Fine loamy",
+        "code": 4,
+        "description": "Fine Silt"
+      },
+      {
+        "name": "Sandy skeletal",
+        "code": 5,
+        "description": "Sandy Skeletal"
+      },
+      {
+        "name": "Rock",
+        "code": 6,
+        "description": "Rock"
+      },
+      {
+        "name": "Coarse loamy/sandy skeletal",
+        "code": 7,
+        "description": "Coarse Loamy/Sandy Skeletal"
+      },
+      {
+        "name": "Fine silty/coarse silt",
+        "code": 8,
+        "description": "Fine Silt/Coarse Silt"
+      },
+      {
+        "name": "Gravelly Clay Loam",
+        "code": 9,
+        "description": "Gravelly Clay Loam"
+      },
+      {
+        "name": "Clayey skeletal",
+        "code": 10,
+        "description": "Clayey Skeletal"
+      },
+      {
+        "name": "Loamy skeletal",
+        "code": 11,
+        "description": "Loamy Skeletal"
+      },
+      {
+        "name": "Coarse loamy/sandy",
+        "code": 12,
+        "description": "Coarse Loamy/Sandy"
+      },
+      {
+        "name": "Fine clayey",
+        "code": 13,
+        "description": "Fine Clayey"
+      }
+    ],
+    "soil_sub_texture": [
+      {
+        "name": "Silt loam",
+        "code": 1,
+        "description": "Silt loam"
+      },
+      {
+        "name": "Loamy sand",
+        "code": 2,
+        "description": "Loamy Sand"
+      },
+      {
+        "name": "Clay loam",
+        "code": 3,
+        "description": "Clay Loam"
+      },
+      {
+        "name": "Sandy loam",
+        "code": 4,
+        "description": "Sandy Loam"
+      },
+      {
+        "name": "Gravelly loam",
+        "code": 5,
+        "description": "Gravelly Loam"
+      },
+      {
+        "name": "Rock",
+        "code": 6,
+        "description": "Rock"
+      },
+      {
+        "name": "Fine silty loam",
+        "code": 7,
+        "description": "Fine Silt Loam"
+      },
+      {
+        "name": "Gravelly sandy loam",
+        "code": 8,
+        "description": "Gravelly Sandy Loam"
+      },
+      {
+        "name": "Loam",
+        "code": 9,
+        "description": "Loam"
+      },
+      {
+        "name": "Very gravelly loam",
+        "code": 10,
+        "description": "Very Gravelly Loam"
+      },
+      {
+        "name": "Cobbly clay",
+        "code": 11,
+        "description": "Cobbly Clay"
+      },
+      {
+        "name": "Very gravelly clay loam",
+        "code": 12,
+        "description": "Very Gravelly Clay Loam"
+      },
+      {
+        "name": "Gravelly silty clay loam",
+        "code": 13,
+        "description": "Gravelly Silty Clay Loam"
+      },
+      {
+        "name": "Silty clay loam",
+        "code": 14,
+        "description": "Silty Clay Loam"
+      }
+    ],
+    "soil_series": [
+      {
+        "name": "CsF",
+        "code": 1,
+        "description": "CsF"
+      },
+      {
+        "name": "WjE",
+        "code": 2,
+        "description": "WjE"
+      },
+      {
+        "name": "SiD",
+        "code": 3,
+        "description": "SiD"
+      },
+      {
+        "name": "SiC",
+        "code": 4,
+        "description": "SiC"
+      },
+      {
+        "name": "ChE",
+        "code": 5,
+        "description": "ChE"
+      },
+      {
+        "name": "MuD",
+        "code": 6,
+        "description": "MuD"
+      },
+      {
+        "name": "UgE",
+        "code": 7,
+        "description": "UgE"
+      },
+      {
+        "name": "SIE",
+        "code": 8,
+        "description": "SIE"
+      },
+      {
+        "name": "ImB",
+        "code": 9,
+        "description": "ImB"
+      },
+      {
+        "name": "ImC",
+        "code": 10,
+        "description": "ImC"
+      },
+      {
+        "name": "Ng",
+        "code": 11,
+        "description": "Ng"
+      },
+      {
+        "name": "Hr",
+        "code": 12,
+        "description": "Hr"
+      },
+      {
+        "name": "RC",
+        "code": 13,
+        "description": "RC"
+      },
+      {
+        "name": "Dq",
+        "code": 14,
+        "description": "Dq"
+      },
+      {
+        "name": "Gt",
+        "code": 15,
+        "description": "Gt"
+      },
+      {
+        "name": "WjF",
+        "code": 16,
+        "description": "WjF"
+      },
+      {
+        "name": "MuC",
+        "code": 17,
+        "description": "MuC"
+      },
+      {
+        "name": "SlB",
+        "code": 18,
+        "description": "SlB"
+      },
+      {
+        "name": "SpC",
+        "code": 19,
+        "description": "SpC"
+      },
+      {
+        "name": "SpB",
+        "code": 20,
+        "description": "SpB"
+      },
+      {
+        "name": "OdF",
+        "code": 21,
+        "description": "OdF"
+      },
+      {
+        "name": "Gz",
+        "code": 22,
+        "description": "Gz"
+      },
+      {
+        "name": "HgB",
+        "code": 23,
+        "description": "HgB"
+      },
+      {
+        "name": "UgC",
+        "code": 24,
+        "description": "UgC"
+      },
+      {
+        "name": "OdE",
+        "code": 25,
+        "description": "OdE"
+      },
+      {
+        "name": "ChD",
+        "code": 26,
+        "description": "ChD"
+      },
+      {
+        "name": "SoD",
+        "code": 27,
+        "description": "SoD"
+      },
+      {
+        "name": "PuB",
+        "code": 28,
+        "description": "PuB"
+      },
+      {
+        "name": "CsE",
+        "code": 29,
+        "description": "CsE"
+      },
+      {
+        "name": "DEC",
+        "code": 30,
+        "description": "DEC"
+      },
+      {
+        "name": "RL",
+        "code": 31,
+        "description": "RL"
+      },
+      {
+        "name": "DED",
+        "code": 32,
+        "description": "DED"
+      },
+      {
+        "name": "DEB",
+        "code": 33,
+        "description": "DEB"
+      },
+      {
+        "name": "JsF",
+        "code": 34,
+        "description": "JsF"
+      },
+      {
+        "name": "PaC",
+        "code": 35,
+        "description": "PaC"
+      },
+      {
+        "name": "MtD",
+        "code": 36,
+        "description": "MtD"
+      },
+      {
+        "name": "JsE",
+        "code": 37,
+        "description": "JsE"
+      },
+      {
+        "name": "MtE",
+        "code": 38,
+        "description": "MtE"
+      },
+      {
+        "name": "HgC",
+        "code": 39,
+        "description": "HgC"
+      },
+      {
+        "name": "KJB",
+        "code": 40,
+        "description": "KJB"
+      },
+      {
+        "name": "MjB",
+        "code": 41,
+        "description": "MjB"
+      },
+      {
+        "name": "MjC",
+        "code": 42,
+        "description": "MjC"
+      },
+      {
+        "name": "PaD",
+        "code": 43,
+        "description": "PaD"
+      },
+      {
+        "name": "MtC",
+        "code": 44,
+        "description": "MtC"
+      },
+      {
+        "name": "AmB",
+        "code": 45,
+        "description": "AmB"
+      },
+      {
+        "name": "MoC",
+        "code": 46,
+        "description": "MoC"
+      },
+      {
+        "name": "Bo",
+        "code": 47,
+        "description": "Bo"
+      },
+      {
+        "name": "NkB",
+        "code": 48,
+        "description": "NkB"
+      },
+      {
+        "name": "GpB",
+        "code": 49,
+        "description": "GpB"
+      },
+      {
+        "name": "MuE",
+        "code": 50,
+        "description": "MuE"
+      },
+      {
+        "name": "HjB",
+        "code": 51,
+        "description": "HjB"
+      },
+      {
+        "name": "Jd",
+        "code": 52,
+        "description": "Jd"
+      },
+      {
+        "name": "OeB",
+        "code": 53,
+        "description": "OeB"
+      },
+      {
+        "name": "GbD",
+        "code": 54,
+        "description": "GbD"
+      }
+    ],
+    "soil_thickness": [
+      {
+        "name": "20 - 50",
+        "code": 1,
+        "description": "20 - 50"
+      },
+      {
+        "name": "> 100",
+        "code": 2,
+        "description": "> 100"
+      },
+      {
+        "name": "50 - 100",
+        "code": 3,
+        "description": "50 - 100"
+      },
+      {
+        "name": "< 20",
+        "code": 4,
+        "description": "< 20"
+      },
+      {
+        "name": "0",
+        "code": 5,
+        "description": "0"
+      }
+    ],
+    "soil_drainage": [
+      {
+        "name": "Somewhat excessive",
+        "code": 1,
+        "description": "Somewhat excessive"
+      },
+      {
+        "name": "Well",
+        "code": 2,
+        "description": "Well"
+      },
+      {
+        "name": "Moderately well",
+        "code": 3,
+        "description": "Moderately well"
+      },
+      {
+        "name": "Very poorly",
+        "code": 4,
+        "description": "Very poorly"
+      },
+      {
+        "name": "Imperfectly",
+        "code": 5,
+        "description": "Imperfectly"
+      }
+    ]
+  },
+  "Forest_summary": {
+    "forest_density": [
+      {
+        "name": "C",
+        "code": 1,
+        "description": "Canopy coverage area of trees is 71% or more"
+      },
+      {
+        "name": "No forest",
+        "code": 2,
+        "description": "No forest"
+      },
+      {
+        "name": "B",
+        "code": 3,
+        "description": "Canopy coverage area of trees is 51% to 70%"
+      },
+      {
+        "name": "A",
+        "code": 4,
+        "description": "Canopy coverage area of trees is 50% or less"
+      }
+    ],
+    "forest_age": [
+      {
+        "name": "No forest",
+        "code": 0,
+        "description": "No forest"
+      },
+      {
+        "name": "1st age class",
+        "code": 1,
+        "description": "1st age class"
+      },
+      {
+        "name": "2nd age class",
+        "code": 2,
+        "description": "2nd age class"
+      },
+      {
+        "name": "3rd age class",
+        "code": 3,
+        "description": "3rd age class"
+      },
+      {
+        "name": "4th age class",
+        "code": 4,
+        "description": "4th age class"
+      },
+      {
+        "name": "5th age class",
+        "code": 5,
+        "description": "5th age class"
+      },
+      {
+        "name": "6th age class",
+        "code": 6,
+        "description": "6th age class"
+      }
+    ],
+    "forest_diameter": [
+      {
+        "name": "No forest",
+        "code": 0,
+        "description": "No forest"
+      },
+      {
+        "name": "Sapling",
+        "code": 1,
+        "description": "Forest stand where trees with DBH less than 6cm account for 50% or more of canopy coverage"
+      },
+      {
+        "name": "Small diameter",
+        "code": 2,
+        "description": "Forest stand where trees with DBH 6-16cm account for 50% or more of canopy coverage"
+      },
+      {
+        "name": "Medium diameter",
+        "code": 3,
+        "description": "Forest stand where trees with DBH 18-28cm account for 50% or more of canopy coverage"
+      },
+      {
+        "name": "Large diameter",
+        "code": 4,
+        "description": "Forest stand where trees with DBH 30cm or more account for 50% or more of canopy coverage"
+      }
+    ],
+    "forest_type": [
+      {
+        "name": "Pine forest",
+        "code": 1,
+        "description": "Pine forest"
+      },
+      {
+        "name": "Non-forest",
+        "code": 2,
+        "description": "Non-forest"
+      },
+      {
+        "name": "Larch forest",
+        "code": 3,
+        "description": "Larch forest"
+      },
+      {
+        "name": "Korean pine forest",
+        "code": 4,
+        "description": "Korean pine forest"
+      },
+      {
+        "name": "Cultivated land",
+        "code": 5,
+        "description": "Cultivated land"
+      },
+      {
+        "name": "Coniferous-broadleaf mixed forest",
+        "code": 6,
+        "description": "Coniferous-broadleaf mixed forest"
+      },
+      {
+        "name": "Poplar forest",
+        "code": 7,
+        "description": "Poplar forest"
+      },
+      {
+        "name": "Broadleaf forest",
+        "code": 8,
+        "description": "Broadleaf forest"
+      },
+      {
+        "name": "Paper mulberry forest",
+        "code": 9,
+        "description": "Paper mulberry forest"
+      },
+      {
+        "name": "Broadleaf artificial forest",
+        "code": 10,
+        "description": "Broadleaf artificial forest"
+      }
+    ]
+  }
+}

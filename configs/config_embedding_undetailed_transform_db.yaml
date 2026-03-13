@@ -1,0 +1,44 @@
+device:
+  gpu_device: 1
+
+data:
+  tif_img_path: ./dataset/tif_img.npy
+  ls_img_path: ./dataset/ls_img.npy
+  height: [554270.0, 562860.0, 859]
+  width:  [331270.0, 342070.0, 1080]
+  non_ls_patches_features_path: ./dataset/0926/non_ls_patches_60dist.npy
+  non_ls_patches_labels_path: ./dataset/0926/non_ls_labels_60dist.npy
+  ls_patches_features_path: ./dataset/0926/ls_patches_60dist.npy
+  ls_patches_labels_path: ./dataset/0926/ls_labels_60dist.npy
+  apply_arcsinh: true
+  apply_log: true
+  embedding_dimension: 64
+  detailed: false
+
+model:
+  model_type: ResNet
+  ssl_type:   SimCLR
+  pre_trained_model_name:  pre
+  fine_trained_model_name: "SSL"
+  dir_name: "embedding_undetailed_transform_db_0205"
+  patch_size: 6
+  strides: 3
+  temperature: 0.07
+  tau_plus: 0.10
+  debiased: true
+
+train:
+  pre_batch_size: 512
+  batch_size: 32
+  pre_epochs: 100
+  pre_learning_rate: 0.0001
+  learning_rate: 0.00001
+  fine_tuning_areas: 10
+  fine_tuning_data_ratio: 1.0
+  fixed_valid: true
+
+aug:
+  random_aug: True
+  aug_1: [1, 1, 1, 1, 1, 1]
+  aug_2: [1, 1, 1, 1, 1, 1]
+  random_aug_thresholds: [0.6, 0.4, 0.5, 1.0, 0.15]
